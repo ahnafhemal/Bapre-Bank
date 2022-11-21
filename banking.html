@@ -35,17 +35,27 @@
             </div>
         </section>
         <!-- Deposit & Withdraw -->
-        <section>
-            <div class="grid grid-cols-2">
-                <div>
+        <section class="mt-8">
+            <div class="grid grid-cols-2 gap-4">
+                <div class="bg-red-100 p-8 rounded">
                     <h3 class="text-2xl">Please Deposit</h3>
                     <div>
-                        <input id="deopsit-amount" class="border block border-gray-400 rounded w-3/4 mb-4 p-2"
+                        <input id="deopsit-amount" class="border block border-gray-400 rounded w-3/4 mb-4 px-2"
                             type="text" placeholder="$ Amount your want to deposit">
                         <button id="login-submit"
                             class="bg-yellow-600 px-4 rounded py-2 text-white font-medium">Deposit</button>
                     </div>
                 </div>
+                <div class="bg-purple-100 p-8 rounded">
+                    <h3 class="text-2xl">Please Withdraw</h3>
+                    <div>
+                        <input id="withdraw-amount" class="border block border-gray-400 rounded w-3/4 mb-4 px-2"
+                            type="text" placeholder="$ Amount your want to Withdraw">
+                        <button id="login-submit"
+                            class="bg-yellow-600 px-4 rounded py-2 text-white font-medium">Withdraw</button>
+                    </div>
+                </div>
+
             </div>
         </section>
     </main>
